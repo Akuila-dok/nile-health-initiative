@@ -57,9 +57,10 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden px-6 pb-4 space-y-4">
-          <Link href="#mission" className="block text-gray-700 hover:text-nile-blue">Mission</Link>
-          <Link href="#services" className="block text-gray-700 hover:text-nile-blue">What We Do</Link>
-          <Link href="#contact" className="block text-gray-700 hover:text-nile-blue">Contact</Link>
+ <Link href="/" className="hover:text-nile-blue">Home</Link>
+          <Link href="#services" className="hover:text-nile-blue">Activities</Link>
+          <Link href="#contact" className="hover:text-nile-blue">About Us</Link>
+          <Link href="#contact" className="hover:text-nile-blue">Contact</Link>
           <Link href="#donate">
             <button className="w-full bg-gold text-black px-4 py-2 rounded-full font-medium">
               Donate
